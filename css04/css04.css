@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 211, 211);
+    background: linear-gradient(to left, #27b933, #1565c0);
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+
+.nike {
+    width: 85%;
+    height: 75%;
+    padding: 2%;
+    margin: auto;
+    margin-top: 7.5%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.main1 {
+    max-width: 40%;
+    color: white;
+}
+
+.main1>h1 {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.main>p {
+    font-size: large;
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+
+.shoe-1 {
+    position: absolute;
+    right: 0px;
+    top: 10%;
+    width: 600px;
+    height: 300px;
+}
+
+.shoe-1:hover {
+    right: 0px;
+    top: 15px;
+    width: 900px;
+    height: 600px;
+}
