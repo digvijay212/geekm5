@@ -1,0 +1,391 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+   
+  width: 100%;
+  
+   
+}
+
+
+.div1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+   flex-wrap: wrap;
+   flex-direction: row;
+   background-color: rgb(244, 244, 237);
+   
+}
+
+.hdiv1{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+}
+img{
+   
+      margin-left: 20px; 
+       height: 55%;
+       width: 25%;
+   }
+   
+
+.hdiv2{
+    height: 100%;
+    width: 40%;
+    margin: auto;
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+/* main sections */
+.div2{
+    margin:0;
+    height: 590px;
+    width: 100%;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-IconBounce-2022-01:VP4-1468x826);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+  
+
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50% -50%);
+}
+
+span{
+    cursor: pointer;
+    
+}
+
+span:hover{
+    text-decoration: underline black;
+}
+button{
+    padding: 4px;
+    background-color: rgb(43, 98, 226);
+    cursor: pointer;
+}
+
+
+
+.div3{
+    margin: auto;
+    margin-top: 0px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+   flex-wrap: wrap;
+   flex-direction:row;
+ 
+    
+   
+}
+.d3d1{
+    height: 150px;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.div3 h4{
+    color: blue;
+    text-decoration: solid black;
+}
+table{
+    cursor: pointer;
+}
+
+.d3d2{
+    height: 450px;
+    width: 100%;
+    
+    display: grid;
+    column-gap: 10px;
+    grid-template-areas:'b1 b2 b3 b4'
+                        'b5 b6 b7 b8'   
+}
+
+
+   
+.d img{
+   height: 80%;
+   width: 75%;
+}
+
+#block1{
+    grid-area:b1;
+}
+#block2{
+    grid-area:b2;
+}
+#block3{
+    grid-area:b3;
+}
+#block4{
+    grid-area:b4;
+}
+#block5{
+    grid-area:b5;
+}
+#block6{
+    grid-area:b6;
+}
+#block7{
+    grid-area:b7;
+}
+#block8{
+    grid-area:b8;
+}
+#blue{
+    color: blue;
+    cursor: pointer;
+}
+
+.div4{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XGP-Highlight-Ultimate-1PP-Evergreen-Keyart-FY22:VP5-1596x600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50% -50%);
+}
+.text{
+    color: rgb(42, 149, 165);
+}
+
+.div5{
+ margin-top: 10px;
+    height: 550px;
+    width: 100%;
+    
+    display: grid;
+    column-gap: 10px;
+    grid-template-areas:'b1 b2 b3 b4'
+                        'b5 b6 b7 b8'   
+}
+
+
+   
+.d img{
+   height: 80%;
+   width: 75%;
+}
+
+#block1{
+    grid-area:b1;
+}
+#block2{
+    grid-area:b2;
+}
+#block3{
+    grid-area:b3;
+}
+#block4{
+    grid-area:b4;
+}
+#block5{
+    grid-area:b5;
+}
+#block6{
+    grid-area:b6;
+}
+#block7{
+    grid-area:b7;
+}
+#block8{
+    grid-area:b8;
+}
+.blue{
+    color: blue;
+    cursor: pointer;
+    padding: 5px;
+}
+nav{
+    position: sticky;
+    right:100px;
+    }
+
+    .div6{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    i{
+        padding: 8px;
+    }
+    .div7{
+       margin-top: 10px;
+        height: 400px;
+        width: 100%;
+        background-color: rgb(251, 250, 249);
+        display: grid;
+     grid-template-areas:'b1 b2 b3 b4 b5'
+                         'b7 b8 b9 b10 b11'
+                         'b12 b13 b14 b15 b16'
+                         'b17 b18 b19 b20 b21'
+                         'b22 b23 b24 b25 b26'
+                         'b27 b28 b29 b30 b31'
+                         'b32 b32 b33 b34 b35'
+                         'b36 b36 b37 b38 b38' 
+    }
+     
+
+    .d2{
+        padding: 5px;
+    }
+
+    #item1{
+        grid-area:b1;
+       }
+#item2{
+grid-area:b2;
+}
+#item3{
+grid-area:b3;
+}
+#item4{
+grid-area:b4;
+}
+#item5{
+grid-area:b5;
+}
+#item6{
+grid-area:6;
+}
+#item{
+grid-area:b7;
+}
+#item{
+grid-area:b8;
+}
+#item{
+grid-area:b9;
+}
+#item10{
+grid-area:b10;
+}
+#item11{
+grid-area:11;
+}
+#item12{
+grid-area:b12;
+}
+#item13{
+grid-area:b13;
+}
+#item14{
+grid-area:b14;
+}
+#item15{
+grid-area:b15;
+}
+#item16{
+grid-area:16;
+}
+#item17{
+grid-area:b17;
+}
+#item18{
+grid-area:b18;
+}
+#item19{
+grid-area:b19;
+}
+#item20{
+grid-area:b20;
+}
+#item21{
+grid-area:b21;
+}
+#item23{
+grid-area:b22;
+}
+#item23{
+grid-area:b23;
+}
+#item24{
+grid-area:b24;
+}
+#item25{
+grid-area:b25;
+}
+#item26{
+grid-area:b26;
+}
+#item27{
+grid-area:b27;
+}
+#item28{
+grid-area:b28;
+}
+#item29{
+grid-area:b9;
+}
+#item30{
+grid-area:b30;
+}
+#item31{
+grid-area:b31;
+}
+#item32{
+grid-area:b32;
+}
+#item33{
+    grid-area:b33;
+    }
+
+    #item34{
+        grid-area:b34;
+        }
+        #item35{
+            grid-area:b35;
+            }
+
+            #item36{
+                grid-area:b36;
+                }
+
+                #item37{
+                    grid-area:b37;
+                    }
+                    #item38{
+                        grid-area:b38;
+                        }
