@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+         text-align: center;
+            background-color: rgb(226, 43, 70);
+        }
+        .container{
+            
+            
+            margin: auto;
+            margin-top: 15%;
+           
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .container button{
+            height: 100px;
+            width: 100px;
+            border: 4px solid violet;
+            border-radius:9px;
+        }
+
+
+        .div1 {
+background-image: url("./images/snare.png");
+}
+
+.div2 {
+  background-image: url("images/tom3.png");
+
+}
+
+.div3 {
+  background-image: url("images/snare.png");
+
+}
+
+.div4 {
+  background-image: url("images/tom1.png");
+
+}
+
+.div5 {
+background-image: url("images/tom2.png");
+}
+
+.div6 {
+  background-image: url("images/tom3.png");
+
+}
+    </style>
+</head>
+<body>
+<link rel="stylesheet" href="./images/snare.png">
+  <h1>DRUM KIT</h1>
+    <div class="container">
+        <button  onclick="w()" class="div1">w</button>
+        <button  onclick="a()" class="div2">a</button>
+        <button  onclick="s()" class="div3">s</button>
+        <button  onclick="d()" class="div4">d</button>
+        <button  onclick="j()" class="div5">j</button>
+        <button  onclick="k()" class="div6">k</button>
+        
+       
+    </div>
+    <script>
+        function w(){
+           var audio = new Audio("./sound/sounds_snare.mp3");
+              audio.play();
+         }
+         function a(){
+           var audio = new Audio("./sound/sounds_kick-bass.mp3");
+              audio.play();
+         }
+         function s(){
+           var audio = new Audio("./sound/sounds_tom-1.mp3");
+              audio.play();
+         }
+         function d(){
+           var audio = new Audio("./sound/sounds_tom-2.mp3");
+              audio.play();
+         }
+         function j(){
+           var audio = new Audio("./sound/sounds_tom-3.mp3");
+              audio.play();
+         }
+         function k(){
+           var audio = new Audio("./sound/sounds_tom-4(1).mp3");
+              audio.play();
+         }
+        
+     
+   
+     
+       </script>
+</body>
+</html>
