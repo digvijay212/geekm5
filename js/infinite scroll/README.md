@@ -1,5 +1,5 @@
-
-# Endless Scroll
+#link:[https://digvijay212.github.io/geekm5/js/infinite scroll
+# Endless Scroll](https://digvijay212.github.io/geekm5/js/infinite scroll)
 
 ## HTML
 
@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Endless Scroll</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <h1>ENDLESS SCROLL</h1>
